@@ -1,4 +1,8 @@
 <?php
+
+    require "src/conexao-bd.php";
+    require "src/Modelo/Produto.php";
+
     $produtosCafe = [
         [
             "nome" => "Café Cremoso",
